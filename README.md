@@ -1,2 +1,2 @@
 # My-Website
-Personal website with link to my Git Repos and LinkedIn
+Personal website with links to my Git Repos and LinkedIn account
