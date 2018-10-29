@@ -2,10 +2,10 @@ body {
   width: 100%;
   align-items: center;
   line-height: 1.25;
-  font-family: 'Arial';
+  font-family: 'Fira Sans';
   display: flex;
   flex-direction: column;
-  background: black;
+  background: #191970;
 }
 
 body, p {
@@ -21,19 +21,19 @@ body, p {
 .main-intro h2 {
   font-weight: 400;
   font-size: 1.25em;
-  color: slategray;
+  color: lightgreen;
 }
 
 .about-me h1{
 
   font-weight: 400;
   font-size: 1.30em;
-  color: slategray;
+  color: lightpink;
 }
 .about-me h2{
  font-weight: 300;
   font-size: 1.25em;
-  color: slategray;
+  color: white;
 }
 
 .projects {
@@ -83,6 +83,7 @@ body, p {
   }
 
   .projects a:hover {
-    transform: scale(1.1);
+    box-shadow: 0 1em 1em -0.4em #0fffff;
+    transform: translateY(-0.4em);
   }
 }
